@@ -5,7 +5,7 @@
 # Symmetric dataset 
 To download the symmetric evaluation dataset from the EMNLP 2019 paper [Towards Debiasing Fact Verification Models](https://arxiv.org/abs/1908.05267) use this [link](https://github.com/TalSchuster/FeverSymmetric/raw/master/fever_symmetric_eval.jsonl).
 
-As described in the paper, the cases are based on the [FEVER dataset](https://fever.ai/resources.html).
+As described in the paper, the cases are based on the [FEVER dataset](http://fever.ai/resources.html).
 
 Each line in the jsonlines file contains:
 * **id** - matches the FEVER id. For the new pairs, a suffix of *000000{2,3,4}* is added.
