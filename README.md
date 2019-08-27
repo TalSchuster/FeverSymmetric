@@ -5,6 +5,13 @@
 # Symmetric dataset 
 To download the symmetric evaluation dataset from the EMNLP 2019 paper [Towards Debiasing Fact Verification Models](https://arxiv.org/abs/1908.05267) use this [link](https://github.com/TalSchuster/FeverSymmetric/raw/master/fever_symmetric_eval.jsonl).
 
+## Version 0.2
+We release a version that includes new cases. This version is split to dev (708 pairs) and test (712 pairs) to allow models to use the dev set for hyperparameter tuning. 
+
+## Version 0.1
+The version used in "Towards Debiasing Fact Verification Models" paper.
+
+## Dataset format
 As described in the paper, the cases are based on the [FEVER dataset](http://fever.ai/resources.html).
 
 Each line in the jsonlines file contains:
