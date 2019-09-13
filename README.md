@@ -3,7 +3,7 @@
 - Regularization-based method
 
 # Symmetric dataset 
-To download the symmetric evaluation dataset from the EMNLP 2019 paper [Towards Debiasing Fact Verification Models](https://arxiv.org/abs/1908.05267) use this [link](https://github.com/TalSchuster/FeverSymmetric/raw/master/fever_symmetric_eval.jsonl).
+To download the symmetric evaluation dataset from the EMNLP 2019 paper [Towards Debiasing Fact Verification Models](https://arxiv.org/abs/1908.05267) use this [link](https://raw.githubusercontent.com/TalSchuster/FeverSymmetric/master/symmetric_v0.1/fever_symmetric_generated.jsonl).
 
 ## Version 0.2
 We release a version that includes new cases. This version is split to dev (708 pairs) and test (712 pairs) to allow models to use the dev set for hyperparameter tuning. 
