@@ -11,6 +11,13 @@ We release a version that includes new cases. This version is split to dev (708 
 ## Version 0.1
 The version used in "Towards Debiasing Fact Verification Models" paper.
 
+We've implemented the baseline and the reweighted version on the latest version of the pytorch-transformers repository ([link](https://github.com/TalSchuster/pytorch-transformers)). Since the test set is small, there are some random variations across different runs using different servers/GPUs. Therefore, to allow better comparison across methods, we've run the training five times with different random seeds and report the average and std of the runs:
+
+|             | Symmetric (generated) | Fever DEV      | delta |
+|-------------|-----------------------|----------------|-------|
+| baseline    | 57.46 (+/-1.6)        | 85.85 (+/-0.5) |       |
+| re-weighted | 61.62 (+/-1.2)        | 85.95 (+/-0.5) | 4.16  |
+
 ## Dataset format
 As described in the paper, the cases are based on the [FEVER dataset](http://fever.ai/resources.html).
 
