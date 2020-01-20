@@ -55,3 +55,9 @@ If you find this repo useful, please cite our paper.
   url = 	"https://arxiv.org/abs/1908.05267"
 }
 ```
+
+## Related papers
+* [Automatic Fact-guided Sentence Modification](https://arxiv.org/abs/1909.13838)
+* [Simple but effective techniques to reduce biases](https://arxiv.org/abs/1909.06321)
+* [FEVER: a large-scale dataset for Fact Extraction and VERification](https://arxiv.org/abs/1803.05355)
+* [Adversarial attacks against Fact Extraction and VERification](https://arxiv.org/abs/1903.05543)
