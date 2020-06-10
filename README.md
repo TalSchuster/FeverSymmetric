@@ -30,7 +30,7 @@ Each line in the jsonlines file contains:
 # Training
 Our processed FEVER training data is available [here](https://www.dropbox.com/s/v1a0depfg7jp90f/fever.train.jsonl). It includes only cases that can be validated with a single evidence sentence. The evidence sentences for the NOT ENOUGH INFORMATION sampled from the NSMN retrieval model.
 
-The processed FEVER evaluation data is available [here](https://www.dropbox.com/s/bdwf46sa2gcuf6j/fever.dev.json).
+The processed FEVER evaluation data is available [here](https://www.dropbox.com/s/bdwf46sa2gcuf6j/fever.dev.jsonl).
 
 In order to train the baseline model, use the run `bash train_baseline.sh`.
 
