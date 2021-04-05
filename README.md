@@ -57,6 +57,7 @@ If you find this repo useful, please cite our paper.
 ```
 
 ## Related papers
+* [Get Your Vitamin C! Robust Fact Verification with Contrastive Evidence](https://arxiv.org/abs/2103.08541)
 * [Automatic Fact-guided Sentence Modification](https://arxiv.org/abs/1909.13838)
 * [Simple but effective techniques to reduce biases](https://arxiv.org/abs/1909.06321)
 * [FEVER: a large-scale dataset for Fact Extraction and VERification](https://arxiv.org/abs/1803.05355)
